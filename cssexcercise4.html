@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    :root{
+        --color-1:black;
+        --color-2:brown;
+        --color-3:green;
+        --color-4: aquamarine;
+    }
+   body{
+    background-color: var(--color-3);
+   }
+   nav ul li{
+    display: inline;
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+    background-color: var(--color-2);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+   }
+   nav ul li:hover{
+    background-color: var(--color-4);
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    font-weight: bold;
+   }
+</style>
+<body>
+ <nav>
+    <ul>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>DETAILS</li>
+    </ul>
+ </nav>
+    
+</body>
+</html>
